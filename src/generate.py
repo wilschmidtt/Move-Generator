@@ -3,7 +3,7 @@ import copy
 from dataclasses import dataclass, field
 
 unexplored = []
-explored = []
+explored = [] 
 
 @dataclass
 class Node:
