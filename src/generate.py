@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import copy
 from dataclasses import dataclass, field
-
+ 
 unexplored = []
 explored = [] 
 
