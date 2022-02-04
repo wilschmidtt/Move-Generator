@@ -94,11 +94,6 @@ def hexapawn(board, size, player, num_moves):
     level_type = swapLevel(level_type)
     curr_idx = 0
 
-    """
-    ****** MINMAX ALGORITHM HERE ******:
-
-    The below block of code uses the minmax algorithm to propogate values up to the root node
-    """
     while curr_level >= 0:
         curr_nodes = explored[curr_level]
         for node in curr_nodes:
